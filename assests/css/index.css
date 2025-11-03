@@ -1,0 +1,425 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap');
+
+/* Nav Start */
+
+#navfull * {
+    all: unset;
+    display: revert;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif !important;
+}
+
+#navfull {
+    width: 100%;
+    background-color: black !important;
+    color: white !important;
+    overflow: hidden;
+    font-family: 'Jost', sans-serif;
+}
+
+
+#navfull .nav-texts {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 12px;
+
+}
+
+#navfull hr {
+    transform: translateY(10px);
+    border: none;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+
+#navfull .navfull {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    transform: translateY(10px);
+}
+
+#navfull .logo img {
+    width: 130px;
+    transform: translateX(10px);
+}
+
+#navfull .pages-nav {
+    display: flex;
+    gap: 25px;
+}
+
+#navfull .pages-nav a {
+    text-decoration: none !important;
+    color: white !important;
+    font-size: 12px;
+}
+
+#navfull #btn {
+    border: 1px solid red !important;
+    background: black !important;
+    color: white !important;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+
+/* Nav End */
+
+/* Main Star */
+main {
+    width: 100%;
+    height: calc(100vh - 99px);
+    display: flex;
+    justify-content: center;
+}
+
+.food-slayt {
+    width: 100%;
+    height: calc(100vh - 99px);
+    overflow: hidden;
+
+}
+
+/* Main End */
+
+/* Main 2 star */
+
+.main-2 {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.mantar {
+    transform: translateY(-200px);
+}
+
+#m-btn {
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+
+.m-p {
+    width: 550px;
+}
+
+.melumat {
+    width: 350px;
+    height: 200px;
+    transform: translateY(-80px);
+
+    h4 {
+        transform: translateX(30px);
+    }
+
+}
+
+#p-hot {
+    transform: translateY(40px);
+    transform: translateX(39px);
+    margin-bottom: -2px;
+    color: rgba(0, 0, 0, 0.237);
+}
+
+.fa-solid {
+    font-size: 30px;
+    transform: translateY(-37px);
+    color: red;
+}
+
+.yemek {
+    width: 450px;
+    height: 400px;
+    overflow: hidden;
+
+    img {
+        width: 500px;
+        height: 400px;
+    }
+}
+
+.burger-image {
+    transform: translateY(-300px);
+}
+
+.burger-image img {
+    width: 150px;
+}
+
+
+/* MAin 2 end */
+
+/* main3 start */
+.main-3 {
+    width: 100%;
+    height: 100vh;
+    background-color: #faf5ef;
+    position: relative;
+    padding: 100px 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main3-text {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+#main3btn {
+    background-color: #c4451c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 16px;
+    font-family: "Jost", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: default;
+}
+
+.main3-text h2 {
+    font-family: "Jost", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1c1c1c;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.mainMantar img {
+    position: absolute;
+    bottom: 150px;
+    left: 20px;
+    width: 150px;
+    opacity: 0.9;
+}
+
+.mainYaprak img {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    width: 200px;
+    opacity: 0.7;
+    transform: translateX(150px);
+}
+
+.cardfull {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.card1,
+.card2,
+.card3 {
+    background-color: #fff;
+    border-radius: 4px;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.card1:hover,
+.card2:hover,
+.card3:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.card1 img,
+.card2 img,
+.card3 img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.card1 h1,
+.card2 h1,
+.card3 h1 {
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    text-transform: uppercase;
+    margin: 20px 0 10px 25px;
+}
+
+.card1 p,
+.card2 p,
+.card3 p {
+    font-family: "Jost", sans-serif;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.7;
+    margin: 0 25px 25px;
+}
+
+#cardbtn,
+#cardbtn2,
+#cardbtn3 {
+    font-family: "Jost", sans-serif;
+    background: transparent;
+    color: #c4451c;
+    border: 1px solid #c4451c;
+    border-radius: 2px;
+    padding: 10px 22px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    transition: all 0.3s ease;
+}
+
+#cardbtn:hover,
+#cardbtn2:hover,
+#cardbtn3:hover {
+    background-color: #c4451c;
+    color: white;
+}
+
+/* main3 end */
+
+/* main4 star */
+
+.main-4 {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.all-text {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#text-btn {
+    background-color: #c4451c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 6px 16px;
+    font-family: "Jost", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: default;
+
+}
+
+.text-btn {
+    transform: translateX(-70px);
+
+}
+
+.allbtn {
+    background-color: white;
+    border: solid 1px black;
+    padding: 6px 16px;
+    font-family: "Jost", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    cursor: default;
+    width: 150px;
+    height: 40px;
+}
+
+.text-btn h2 {
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #1c1c1c;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.cards1 {
+    width: 350px;
+    height: 700px;
+    overflow: hidden;
+     background-color: rgb(246,246,246);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.cards1 img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+.yemekler {
+    width: 900px;
+    height: 700px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 10px;
+    background-color: rgb(246,246,246);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+.main4-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.yemekcard {
+    width: 270px;
+    height: 350px;
+    background-color: rgb(246,246,246);
+    border-radius: 4px;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+
+}
+
+.yemekcardimg img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+}
+
+
+/* main4 end */
